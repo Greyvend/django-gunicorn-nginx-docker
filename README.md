@@ -11,9 +11,9 @@ After that, set up PyCharm.
 2. Add project interpreter as the **Docker Compose** -> Select **Service** as *app* from dropdown. **Python interpreter path** should be just *python*.
 3. Click OK, exit.
 4. Create running configuration if not autocreated.
-  1. Click **Edit configurations...**
-  2. Click **+**
-  3. Select **Django Server**
-  4. Type host 0.0.0.0
-  5. Save, quit.
+    1. Click **Edit configurations...**
+    2. Click **+**
+    3. Select **Django Server**
+    4. Type host `0.0.0.0`
+    5. Save, quit.
 5. Run the configuration with debugger (F9). Wait a minute, debugger won't attach and show the error: *"Connection to Python debugger failed: Connection to the debugger script at 127.0.0.1:55522 timed out"*
